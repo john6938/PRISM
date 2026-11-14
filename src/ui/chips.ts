@@ -1,5 +1,5 @@
 /**
- * Shared visual conventions for lexical (pale orange, solid) and POS (pale yellow,
+ * Shared visual conventions for lexical (pale green, solid) and POS (pale yellow,
  * dashed, upper-case tag) elements, used in every view. The distinction never
  * relies on colour alone: POS elements are upper-case tags with a dashed
  * outline, and every element has an accessible label.

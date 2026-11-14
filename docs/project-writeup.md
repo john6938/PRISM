@@ -137,7 +137,7 @@ active tabs, with pale yellow (`#ffe680`) for focus and highlights. The
 favicon (`Pattern explorer/favicon.ico`) is used as the browser-tab icon and
 as the logo in the header and startup screen.
 
-- **Pale orange, solid outline:** exact word match.
+- **Pale green, solid outline:** exact word match (pale orange until 2026-11-14).
 - **Pale yellow, dashed or dotted outline, upper-case bold tag:** POS match.
 - The same conventions are used in pattern chips, the legend and the KWIC
   concordance. In the concordance the original words are kept and coloured
@@ -189,7 +189,8 @@ compact sort bar.
 
 ### 2.4 Interaction design
 
-- Sort by three tabs (Most Frequent, Longest, Order in Q) or by clicking the
+- Sort by three tabs (Most Frequent, Longest, Sequential = order of first
+  occurrence in Q; formerly "Order in Q") or by clicking the
   Length, Freq., Coverage and Rarity headings. Clicking the active heading again
   reverses the order. Ties are always broken the same way.
 - A toggle switches between maximal patterns and all patterns, including
@@ -265,6 +266,8 @@ English usage and never as forensic evidential strength (remit §8).
 | 2026-11-13 | Feature: Length / Freq. / Coverage headings sort the results; a second click reverses; coverage added as a sort key; sort direction recorded in exports; 24 tests |
 | 2026-11-14 | Rarity agreed: single-word rarity against the BNC/COCA lists as the default, with bigram/trigram z-scores and keyness as later options |
 | 2026-11-14 | Favicon and logo added; colour scheme matched to jb11.org (dark grey page, black header/footer, orange accents, pale-orange word chips, pale-yellow POS chips) |
+| 2026-11-14 | Sort tab "Order in Q" renamed "Sequential" (patterns in the order they first occur in Q); each sort tab now has a hover hint |
+| 2026-11-14 | Word-token chips and concordance highlights changed from pale orange to pale green (`#c6efc0`, text `#12380f`, outline `#3a9a32`); POS tags stay pale yellow. Green and yellow are easier to tell apart than orange and yellow |
 | 2026-11-14 | Pressing Find Patterns smoothly scrolls Shared patterns to the top of the viewport (instant if reduced motion is set), so the progress bar and results are in view. The results area has a minimum height of one screen so the scroll can always reach it |
 | 2026-11-14 | Selection colours follow the section: each panel re-defines the accent tokens (`--primary`, `--primary-soft`, `--primary-line`, `--accent-text`), so active tabs, selected genre, Q dataset, checkboxes, the selected pattern, sort heading, rarest-word row and distribution bars are yellow, orange, green or blue by section. The help dialog keeps the site orange |
 | 2026-11-14 | Each section title is a full-width bar in the section colour with black text (`.sec-bar`); the details bar holds the close button and stays visible while the details panel scrolls |
@@ -295,7 +298,7 @@ English usage and never as forensic evidential strength (remit §8).
 | **The spreadsheet's counts are not COCA counts.** The per-form counts sum to about 92.7 million and "email" has only 50, which matches the BNC. | The BNC/COCA band is the primary measure; BNC counts only separate words within a band. Documented in section 2.5. |
 | **Names, contractions and new words are missing from the list.** | Contractions are mapped to full forms; other unlisted words are not scored and are counted separately, so names do not appear "rare". |
 | **The supplied favicon was 268 KB** (one uncompressed 256 px image). | Converted to a 3 KB multi-size icon (16–64 px) plus a 128 px PNG for the logo; the original is kept in `Pattern explorer/`. |
-| **Orange and yellow chips are similar in hue.** | Colour is not the only cue: POS tags are upper-case and bold with a dashed outline (dotted underline in the concordance); words have a solid outline. |
+| **Orange and yellow chips were similar in hue** (word chips are now green). | Colour is not the only cue: POS tags are upper-case and bold with a dashed outline (dotted underline in the concordance); words have a solid outline. |
 | **Speeches resume after stage directions without a speaker label** in the Gutenberg text (e.g. Claudius's "O, my offence is rank" follows an exit), so keeping only labelled blocks lost about 8% of the words. | A block without a label continues the current speech unless it is a direction or a heading. Directions are recognised by whole block (starting with "[", "_" or Enter/Exit/Exeunt/Flourish…), never by line, because verse lines can start with "Dies" or "Enter". |
 | **Joint speaker labels** ("ROSENCRANTZ and GUILDENSTERN.") were not recognised. | The label pattern now allows "and" between names, and "All." |
 | **Patterns could cross from one speaker to the next**, because spaCy does not always end a sentence at a blank line. | A pipeline step before the parser starts a sentence after every blank line. All 4,179 speech starts were checked to be sentence-initial. |

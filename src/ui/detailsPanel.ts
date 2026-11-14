@@ -83,7 +83,7 @@ function concordance(p: PatternResult): HTMLElement {
 
   return h('section', { class: 'detail-section' },
     h('h3', { class: 'sub-title' }, 'KWIC concordance'),
-    h('p', { class: 'muted small' }, 'Original text. ', h('mark', { class: 'w-lex' }, 'Orange, solid'), ' = word match; ', h('mark', { class: 'w-pos' }, 'yellow, dotted'), ' = POS match (hover for tag).'),
+    h('p', { class: 'muted small' }, 'Original text. ', h('mark', { class: 'w-lex' }, 'Green, solid'), ' = word match; ', h('mark', { class: 'w-pos' }, 'yellow, dotted'), ' = POS match (hover for tag).'),
     h('div', { class: 'kwic-tabs', role: 'tablist', 'aria-label': 'Filter concordance by dataset' },
       [['all', 'All datasets'] as const, ...Array.from({ length: n }, (_, i) => [i, roleName(i)] as const)].map(([id, label]) =>
         h('button', { class: k.dataset === id ? 'on' : '', role: 'tab', 'aria-selected': String(k.dataset === id), onclick: () => A.setKwic({ dataset: id, page: 0 }) }, label))),

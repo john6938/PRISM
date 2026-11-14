@@ -9,8 +9,10 @@ import { fmt, h, icon, replace } from './dom';
 
 export const PAGE_SIZE = 20;
 const MODE_LABEL: Record<string, string> = { lexical: 'Word tokens', pos: 'POS sequences', hybrid: 'Greedy hybrid', exploratory: 'Exploratory hybrid' };
-const SORTS: { id: SortKey; label: string }[] = [
-  { id: 'frequency', label: 'Most Frequent' }, { id: 'length', label: 'Longest' }, { id: 'orderInQ', label: 'Order in Q' },
+const SORTS: { id: SortKey; label: string; hint: string }[] = [
+  { id: 'frequency', label: 'Most Frequent', hint: 'Most occurrences first' },
+  { id: 'length', label: 'Longest', hint: 'Longest patterns first' },
+  { id: 'orderInQ', label: 'Sequential', hint: 'In the order the patterns first occur in Q' },
 ];
 
 /** Memoised view: recomputed only when result, sort or filter change. */
@@ -117,7 +119,7 @@ export function mountResultsPanel(root: HTMLElement) {
       : 'Choose datasets and press Find Patterns.';
     csvBtn.disabled = jsonBtn.disabled = !r || view.length === 0;
 
-    replace(sortBar, SORTS.map((s) => h('button', { class: state.sort === s.id ? 'on' : '', role: 'tab', 'aria-selected': String(state.sort === s.id), onclick: () => A.setSort(s.id) }, s.label)));
+    replace(sortBar, SORTS.map((s) => h('button', { class: state.sort === s.id ? 'on' : '', role: 'tab', 'aria-selected': String(state.sort === s.id), title: s.hint, onclick: () => A.setSort(s.id) }, s.label)));
     const nf = activeFilterCount(state.filter);
     replace(filterBtn, icon('filter', 16), 'Filters', nf ? h('span', { class: 'badge' }, nf) : null);
     filterBtn.setAttribute('aria-expanded', String(state.filtersOpen));

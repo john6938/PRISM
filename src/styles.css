@@ -19,10 +19,10 @@
   --primary-line: #a85f0a;
   --accent-text: #ffb766;
   --focus: #ffe680;
-  /* Word tokens: pale orange, solid. POS tags: pale yellow, dashed/dotted. */
-  --lex-bg: #ffd9ad;
-  --lex-fg: #4a2600;
-  --lex-line: #e07a00;
+  /* Word tokens: pale green, solid. POS tags: pale yellow, dashed/dotted. */
+  --lex-bg: #c6efc0;
+  --lex-fg: #12380f;
+  --lex-line: #3a9a32;
   --pos-bg: #fff1a6;
   --pos-fg: #463a00;
   --pos-line: #a88a00;
@@ -234,7 +234,7 @@ button:disabled { cursor: not-allowed; }
 .page:hover:not(:disabled) { color: var(--text); background: var(--raised); }
 .page:disabled { opacity: .35; }
 
-/* ---------- pattern chips: pale orange, solid = word; pale yellow, dashed = POS ---------- */
+/* ---------- pattern chips: pale green, solid = word; pale yellow, dashed = POS ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 5px; font-size: 13.5px; line-height: 1.35; border: 1px solid transparent; }
 .chip-lex { background: var(--lex-bg); color: var(--lex-fg); border-color: var(--lex-line); font-weight: 500; }
