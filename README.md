@@ -236,40 +236,18 @@ in `ui/leftPanel.ts`.
 
 ## Deployment (GitHub Pages)
 
-The app builds to static files in `dist/`. When the repository exists:
+Live site: https://john6938.github.io/PRISM/
 
-1. Set the base path to the repository name, e.g.
-   `BASE_PATH=/pattern-explorer/ npm run build` (default `./` also works on
-   most static hosts).
-2. Add `.github/workflows/pages.yml`:
+`.github/workflows/pages.yml` runs on every push to `main`: it installs
+dependencies, runs the tests, builds with `BASE_PATH=/<repository name>/`
+and deploys `dist/` to GitHub Pages. If the tests fail, nothing is deployed.
 
-```yaml
-name: Deploy to GitHub Pages
-on: { push: { branches: [main] }, workflow_dispatch: {} }
-permissions: { contents: read, pages: write, id-token: write }
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 24, cache: npm }
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
-        env: { BASE_PATH: '/${{ github.event.repository.name }}/' }
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
-    steps:
-      - id: d
-        uses: actions/deploy-pages@v4
-```
+One-time setup: in the repository's *Settings → Pages*, set *Source* to
+*GitHub Actions*. To deploy again without a code change, use *Actions →
+Deploy to GitHub Pages → Run workflow*.
 
-3. In repository *Settings → Pages*, set the source to *GitHub Actions*.
+To build for another static host, run `npm run build` (base `./`) or set
+`BASE_PATH` to the folder the site is served from.
 
 Built-in corpora are committed as pre-tagged JSON (`public/corpora`), so CI
 does not need Python or spaCy. Uploaded text is processed entirely in the
