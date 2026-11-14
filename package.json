@@ -1,0 +1,25 @@
+{
+  "name": "pattern-explorer",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "corpora": "~/.venvs/pattern-explorer-spacy/bin/python scripts/tag_corpora.py",
+    "reference": "~/.venvs/pattern-explorer-spacy/bin/python scripts/build_reference_words.py"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.4.0"
+  }
+}

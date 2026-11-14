@@ -1,0 +1,132 @@
+{
+ "tagger": {
+  "name": "spaCy",
+  "version": "3.8.18",
+  "model": "en_core_web_sm 3.8.0",
+  "tagset": "UPOS",
+  "mode": "build-time"
+ },
+ "genres": [
+  {
+   "id": "literary",
+   "label": "Literary writing",
+   "description": "Four Shakespeare tragedies, complete: Hamlet, Othello, King Lear and Macbeth. Spoken text only; speaker names and stage directions removed. Each act is a document.",
+   "synthetic": false,
+   "source": "Public domain. Project Gutenberg eBook #100, The Complete Works of William Shakespeare (modernised spelling).",
+   "file": "literary.json",
+   "wordCount": 98421,
+   "datasets": [
+    {
+     "id": "hamlet",
+     "name": "Hamlet",
+     "wordCount": 29926
+    },
+    {
+     "id": "othello",
+     "name": "Othello",
+     "wordCount": 26122
+    },
+    {
+     "id": "lear",
+     "name": "King Lear",
+     "wordCount": 25704
+    },
+    {
+     "id": "macbeth",
+     "name": "Macbeth",
+     "wordCount": 16669
+    }
+   ]
+  },
+  {
+   "id": "academic",
+   "label": "Academic writing",
+   "description": "Synthetic LLM-generated academic prose for testing. Not genuine corpus data.",
+   "file": "academic.json",
+   "synthetic": true,
+   "wordCount": 1094,
+   "datasets": [
+    {
+     "id": "research",
+     "name": "Research articles",
+     "wordCount": 320
+    },
+    {
+     "id": "dissertations",
+     "name": "Dissertations",
+     "wordCount": 279
+    },
+    {
+     "id": "conference",
+     "name": "Conference papers",
+     "wordCount": 249
+    },
+    {
+     "id": "review",
+     "name": "Review articles",
+     "wordCount": 246
+    }
+   ]
+  },
+  {
+   "id": "email",
+   "label": "Email correspondence",
+   "description": "Synthetic LLM-generated workplace emails for testing. Fictional senders; not genuine correspondence.",
+   "file": "email.json",
+   "synthetic": true,
+   "wordCount": 631,
+   "datasets": [
+    {
+     "id": "alex",
+     "name": "Sender A",
+     "wordCount": 176
+    },
+    {
+     "id": "jordan",
+     "name": "Sender B",
+     "wordCount": 178
+    },
+    {
+     "id": "casey",
+     "name": "Sender C",
+     "wordCount": 161
+    },
+    {
+     "id": "robin",
+     "name": "Sender D",
+     "wordCount": 116
+    }
+   ]
+  },
+  {
+   "id": "learner",
+   "label": "Second-language learner writing",
+   "description": "Synthetic LLM-generated texts imitating intermediate learner essays (including typical errors) for testing. Not genuine learner data.",
+   "file": "learner.json",
+   "synthetic": true,
+   "wordCount": 763,
+   "datasets": [
+    {
+     "id": "learner-a",
+     "name": "Learner A",
+     "wordCount": 222
+    },
+    {
+     "id": "learner-b",
+     "name": "Learner B",
+     "wordCount": 188
+    },
+    {
+     "id": "learner-c",
+     "name": "Learner C",
+     "wordCount": 181
+    },
+    {
+     "id": "learner-d",
+     "name": "Learner D",
+     "wordCount": 172
+    }
+   ]
+  }
+ ]
+}

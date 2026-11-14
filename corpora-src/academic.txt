@@ -1,0 +1,67 @@
+#genre academic | Academic writing | Synthetic LLM-generated academic prose for testing. Not genuine corpus data.
+
+### research | Research articles | Synthetic empirical research article extracts.
+
+## Vocabulary growth in adult learners
+
+This study examines vocabulary growth among adult learners of English over a period of twelve months. In the context of the study, growth was measured through repeated recognition tests and short written tasks. The results of the analysis suggest that frequent exposure plays a central role in retention. It is clear that learners who read regularly outside class acquired more words than those who did not.
+
+As a result of these findings, we argue that reading programmes deserve greater attention. In light of these findings, I strongly believe that we should reconsider the role of context in language learning. There is a need for longer studies with larger samples. The size of the sample was modest, and the duration of the study was limited by funding.
+
+It is likely that motivation also contributed to the observed differences. Participants may suggest that enjoyment matters more than method, although the present data cannot confirm this claim. In the final section, we consider the implications of the results for teachers and course designers.
+
+## Feedback and revision in academic writing
+
+The present article reports on an intervention that combined written feedback with guided revision. In the context of the study, forty students produced two drafts of an argumentative essay. The quality of the revisions was assessed by two independent raters. It is evident that students who received focused feedback made more substantial changes.
+
+There is a clear relationship between the type of feedback and the depth of revision. As a result of the intervention, many students reported greater confidence in their writing. However, it is possible that the novelty of the task influenced their responses. We may conclude that feedback is most useful when it is specific and timely.
+
+In the next section, we discuss the limitations of the design. The absence of a control group means that the effect of the intervention cannot be isolated. Future research should compare different forms of feedback over a longer period.
+
+### dissertations | Dissertations | Synthetic doctoral dissertation extracts.
+
+## Chapter 2: Literature review
+
+This chapter reviews previous research on the acquisition of formulaic language. From a pedagogical perspective, I firmly believe that we should distinguish between acquisition and explicit knowledge. A number of scholars have argued that formulaic sequences reduce the processing load of speakers. It is widely accepted that native speakers rely on a large stock of prefabricated phrases.
+
+In the context of the present thesis, formulaic language is defined as a sequence of words that is stored and retrieved as a whole. The nature of the evidence for this view is varied. There is a substantial body of work on corpus frequency, and there is a smaller body of experimental research. As a result of this imbalance, the psychological status of many sequences remains uncertain.
+
+It is important that the reader understands the scope of the review. The chapter does not attempt to cover every study in the field. Instead, it focuses on the studies that are most relevant to the research questions.
+
+## Chapter 5: Discussion
+
+The aim of this chapter is to interpret the main findings of the thesis. In the context of the study, learners at higher levels produced more conventional phrases. It is clear that proficiency and phraseology develop together, although the direction of the relationship is not obvious. Learners may argue that they learn phrases by imitation, while teachers may suggest that explicit instruction is necessary.
+
+There is a strong case for combining both approaches in the classroom. As a result of the analysis, I would recommend that teachers draw attention to frequent sequences in authentic texts. The value of the approach lies in its simplicity. In the final chapter, the contributions and limitations of the thesis are summarised.
+
+### conference | Conference papers | Synthetic conference proceedings extracts.
+
+## Measuring lexical diversity in short texts
+
+This paper presents a comparison of lexical diversity measures applied to short learner texts. In the context of the study, we compared four indices across three proficiency levels. The stability of the measures was assessed by resampling. It is clear that some indices are strongly affected by text length.
+
+When interpreting these results, I also believe that we should examine the influence of the learning environment. There is a tendency for classroom texts to repeat the vocabulary of the prompt. As a result of this repetition, diversity scores may underestimate the true range of the learners. The design of the task therefore matters a great deal.
+
+It is likely that segmental measures provide more stable estimates for short texts. We may recommend that researchers report more than one index. In the remainder of the paper, we describe the data and the procedure in detail.
+
+## Collocation errors in spoken learner English
+
+The present paper investigates collocation errors in a small corpus of spoken learner English. In the context of the study, errors were identified by two annotators and classified by type. The majority of the errors involved verb and noun combinations. It is evident that learners often transfer patterns from their first language.
+
+There is a need for teaching materials that focus on collocation. As a result of our findings, we propose a set of short activities for intermediate classes. The results of the pilot were encouraging, although the number of participants was small. It is possible that spoken tasks reveal different problems from written tasks.
+
+### review | Review articles | Synthetic review article extracts.
+
+## Twenty years of corpus-based language teaching
+
+This review surveys twenty years of research on the use of corpora in language teaching. Given the evidence presented, I therefore believe that we should explore alternative accounts of this phenomenon. In the context of the review, we consider both direct and indirect applications of corpora. It is clear that the field has grown considerably since the early studies.
+
+The scope of the review is limited to studies published in English. There is a large number of descriptive studies, but there is a smaller number of controlled experiments. As a result of this imbalance, claims about effectiveness should be treated with caution. Researchers may argue that classroom conditions are difficult to control.
+
+It is important that future reviews include work published in other languages. In the next section, we summarise the main themes of the literature.
+
+## Feedback in second language writing: a critical review
+
+The role of written feedback in second language writing has been debated for several decades. In the context of the review, we examine studies of direct, indirect and metalinguistic feedback. The results of the studies are mixed, and the quality of the designs varies. It is evident that short interventions rarely produce lasting effects.
+
+There is a growing consensus that feedback should be selective. As a result of this consensus, many teachers now focus on a small number of error types. We may suggest that the debate has moved from whether feedback works to how it works. In the final section, we propose a research agenda for the next decade.

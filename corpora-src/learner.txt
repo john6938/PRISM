@@ -1,0 +1,71 @@
+#genre learner | Second-language learner writing | Synthetic LLM-generated texts imitating intermediate learner essays (including typical errors) for testing. Not genuine learner data.
+
+### learner-a | Learner A | Synthetic essays imitating an intermediate learner.
+
+## My hometown
+
+I want to write about my hometown. My hometown is a small city in the north of my country. In my opinion, it is a very beautiful place because there are many mountains and rivers. In the summer many tourists come to visit the old castle.
+
+There are many advantages of living in a small city. For example, the people are very friendly and the life is not so expensive. However, there are also some disadvantages. For example, there is not enough jobs for young people, so many of them move to the capital.
+
+In conclusion, I think that my hometown is a good place for living, but it is not a good place for working. I hope that in the future the government will create more jobs.
+
+## Technology and education
+
+Nowadays technology is very important in our life. In my opinion, students should use computers in the class because it is more interesting. For example, they can watch videos and search information on the internet.
+
+On the other hand, some people think that technology is bad for students. They say that students spend too much time with their phones. I think that this is true, but it depends of the student.
+
+In conclusion, I think that technology has more advantages than disadvantages. Teachers should teach students how to use it in a good way.
+
+### learner-b | Learner B | Synthetic essays imitating an intermediate learner.
+
+## The best holiday
+
+I want to tell about my best holiday. Last year I went to Spain with my family. In my opinion, it was the best holiday of my life because the weather was very good and the food was delicious. In the morning we went to the beach and in the evening we visited the city.
+
+There are many interesting places in Barcelona. For example, there is a very famous church and a big park. However, there are also too many tourists. For example, we waited two hours to enter in the museum.
+
+In conclusion, I think that Spain is a wonderful country for holiday. I hope that I can go there again in the future.
+
+## Should students wear uniforms?
+
+Nowadays many schools have uniforms. In my opinion, students should wear uniforms because it is more fair. For example, poor students do not feel bad about their clothes.
+
+On the other hand, some people think that uniforms are boring. They say that students cannot show their personality. I think that this is a good point, but it depends of the school.
+
+In conclusion, I think that uniforms have more advantages than disadvantages.
+
+### learner-c | Learner C | Synthetic essays imitating an intermediate learner.
+
+## Living in a big city
+
+I want to discuss about living in a big city. Many people prefer to live in the city because there are more opportunities. In my opinion, the city is better for young people because they can find a job easily. In the evening there are many restaurants and cinemas.
+
+There are many problems in big cities. For example, the traffic is very bad and the air is polluted. However, there are also many advantages. For example, the public transport is very good and cheap.
+
+In conclusion, I think that the city is a good place for living when you are young. I hope that in the future the cities will be more green.
+
+## Learning English
+
+Nowadays English is very important for everybody. In my opinion, children should learn English in the primary school because it is more easy for them. For example, they can learn songs and play games.
+
+On the other hand, some people think that children are too young. They say that children must learn their own language first. I think that this is true, but it depends of the child.
+
+### learner-d | Learner D | Synthetic essays imitating an intermediate learner.
+
+## My favourite sport
+
+I want to write about my favourite sport. My favourite sport is football. In my opinion, football is the most exciting sport in the world because everything can happen. In the weekend I play with my friends in the park.
+
+There are many benefits of playing sport. For example, you can stay healthy and you can make new friends. However, there are also some risks. For example, you can have an injury if you are not careful.
+
+In conclusion, I think that everybody should do some sport. I hope that more young people will play football in the future.
+
+## Online shopping
+
+Nowadays many people buy things on the internet. In my opinion, online shopping is very useful because it saves time. For example, you can compare prices in few minutes.
+
+On the other hand, some people think that online shopping is dangerous. They say that somebody can steal their information. I think that this is possible, but it depends of the website.
+
+In conclusion, I think that online shopping has more advantages than disadvantages.
