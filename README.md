@@ -8,11 +8,13 @@ lexical, POS and greedy-hybrid patterns across two to four text datasets.
 Built to a written remit, with a mock-up image as the visual reference
 (neither is included in this repository).
 
-> **Built-in corpora.** *Literary* is authentic: four complete Shakespeare
-> tragedies (Hamlet, Othello, King Lear, Macbeth; 98,421 words, public
-> domain). *Academic*, *Email* and *Learner writing* are still synthetic test
-> data: short LLM-generated texts (about 250–320 words per dataset), not
-> genuine corpus data, and patterns found in them are not findings.
+> **Built-in corpora.** *Literary*: four complete Shakespeare tragedies
+> (Hamlet, Othello, King Lear, Macbeth; 98,421 words, public domain).
+> *Academic*: 100 research abstracts from each of four domains (69,602
+> words). *Newspaper*: four Telegraph Travel texts by one journalist, three
+> known and one questioned (4,808 words). *Learner writing* is still
+> synthetic test data (short LLM-generated texts), not genuine corpus data,
+> and patterns found in it are not findings.
 
 ## Run locally
 
@@ -191,8 +193,9 @@ and never re-run discovery.
 
 ## Known limitations
 
-- Academic, email and learner corpora are still small synthetic texts
-  (≈ 250–320 words per dataset, not 10,000).
+- The learner corpus is still small synthetic text (≈ 170–220 words per
+  dataset).
+- The newspaper corpus is small (≈ 900–1,400 words per text).
 - Shakespeare is tagged with a model trained on modern English, so some Early
   Modern forms are mis-tagged, and elisions lose their apostrophe as a
   separate token ("’gainst" → "’" + "gainst", "’tis" → "’t" + "is").

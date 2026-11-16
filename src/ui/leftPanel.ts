@@ -26,7 +26,7 @@ function corpusCard(): HTMLElement {
     state.corpusTab === 'builtin' ? builtinBody() : uploadBody());
 }
 
-const shortGenre = (label: string) => label.replace(' writing', '').replace('Second-language learner', 'Learner Writing').replace('Email correspondence', 'Email');
+const shortGenre = (label: string) => label.replace(' writing', '').replace('Second-language learner', 'Learner Writing');
 
 /** Corpus details for a genre: shown on hover/focus (desktop) or inline (touch). */
 function genreCard(g: GenreSummary, id: string | null): HTMLElement {

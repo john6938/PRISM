@@ -123,7 +123,7 @@ def main(only: list[str]) -> None:
         (OUT / f"{g['id']}.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         index.append(summary)
         print(f"{g['id']}: {total} words in {len(corpus['datasets'])} datasets")
-    order = ["literary", "academic", "email", "learner"]
+    order = ["literary", "academic", "newspaper", "learner"]
     index.sort(key=lambda s: order.index(s["id"]) if s["id"] in order else 99)
     (OUT / "index.json").write_text(json.dumps({"tagger": tagger, "genres": index}, indent=1), encoding="utf-8")
 

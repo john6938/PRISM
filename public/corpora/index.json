@@ -41,60 +41,62 @@
   {
    "id": "academic",
    "label": "Academic writing",
-   "description": "Synthetic LLM-generated academic prose for testing. Not genuine corpus data.",
+   "description": "Research abstracts from four domains: evolutionary computation, image processing, information theory, and knowledge and data engineering. 100 abstracts per domain; each abstract is a document.",
+   "synthetic": false,
+   "source": "Published research abstracts, supplied by the project team. Copyright remains with the original publishers.",
    "file": "academic.json",
-   "synthetic": true,
-   "wordCount": 1094,
+   "wordCount": 69602,
    "datasets": [
     {
-     "id": "research",
-     "name": "Research articles",
-     "wordCount": 320
+     "id": "evocomp",
+     "name": "Evolutionary Computation",
+     "wordCount": 18332
     },
     {
-     "id": "dissertations",
-     "name": "Dissertations",
-     "wordCount": 279
+     "id": "imageproc",
+     "name": "Image Processing",
+     "wordCount": 16924
     },
     {
-     "id": "conference",
-     "name": "Conference papers",
-     "wordCount": 249
+     "id": "infotheory",
+     "name": "Information Theory",
+     "wordCount": 15940
     },
     {
-     "id": "review",
-     "name": "Review articles",
-     "wordCount": 246
+     "id": "kde",
+     "name": "Knowledge & Data Engineering",
+     "wordCount": 18406
     }
    ]
   },
   {
-   "id": "email",
-   "label": "Email correspondence",
-   "description": "Synthetic LLM-generated workplace emails for testing. Fictional senders; not genuine correspondence.",
-   "file": "email.json",
-   "synthetic": true,
-   "wordCount": 631,
+   "id": "newspaper",
+   "label": "Newspaper writing",
+   "description": "Telegraph Travel articles by one journalist (Adrian Bridge): three known texts and one unknown (questioned) text, for authorship comparison. Text 4 is Q by default. Website promotions and related-article links removed.",
+   "synthetic": false,
+   "source": "The Daily Telegraph (Telegraph Travel), 2012-2014. Copyright Telegraph Media Group; used for research and teaching.",
+   "file": "newspaper.json",
+   "wordCount": 4808,
    "datasets": [
     {
-     "id": "alex",
-     "name": "Sender A",
-     "wordCount": 176
+     "id": "text4",
+     "name": "Text 4 (unknown)",
+     "wordCount": 922
     },
     {
-     "id": "jordan",
-     "name": "Sender B",
-     "wordCount": 178
+     "id": "text1",
+     "name": "Text 1 (known)",
+     "wordCount": 1435
     },
     {
-     "id": "casey",
-     "name": "Sender C",
-     "wordCount": 161
+     "id": "text2",
+     "name": "Text 2 (known)",
+     "wordCount": 1116
     },
     {
-     "id": "robin",
-     "name": "Sender D",
-     "wordCount": 116
+     "id": "text3",
+     "name": "Text 3 (known)",
+     "wordCount": 1335
     }
    ]
   },
