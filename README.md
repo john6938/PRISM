@@ -12,9 +12,10 @@ Built to a written remit, with a mock-up image as the visual reference
 > (Hamlet, Othello, King Lear, Macbeth; 98,421 words, public domain).
 > *Academic*: 100 research abstracts from each of four domains (69,602
 > words). *Newspaper*: four Telegraph Travel texts by one journalist, three
-> known and one questioned (4,808 words). *Learner writing* is still
-> synthetic test data (short LLM-generated texts), not genuine corpus data,
-> and patterns found in it are not findings.
+> known and one questioned (4,808 words). *Learner writing*: PELIC
+> essays by learners whose first language is Arabic, Chinese, Japanese or
+> Spanish (about 10,000 words each; CC BY-NC-ND 4.0). All built-in corpora
+> are now authentic.
 
 ## Run locally
 
@@ -135,7 +136,7 @@ src/
   ui/                     visualisation: panels, chips, genre hover cards, help dialog
 scripts/tag_corpora.py    build-time spaCy tagging
 scripts/build_reference_words.py  build-time conversion of the BNC/COCA lists
-corpora-src/              synthetic corpus sources
+corpora-src/              corpus sources (built by scripts/build_*.py)
 tests/                    synthetic corpora with known expected results
 ```
 
@@ -193,8 +194,9 @@ and never re-run discovery.
 
 ## Known limitations
 
-- The learner corpus is still small synthetic text (≈ 170–220 words per
-  dataset).
+- Learner essays answer different prompts (prompts were set per class
+  and cannot be matched across first languages), so some shared patterns
+  reflect topic rather than first language.
 - The newspaper corpus is small (≈ 900–1,400 words per text).
 - Shakespeare is tagged with a model trained on modern English, so some Early
   Modern forms are mis-tagged, and elisions lose their apostrophe as a

@@ -103,30 +103,31 @@
   {
    "id": "learner",
    "label": "Second-language learner writing",
-   "description": "Synthetic LLM-generated texts imitating intermediate learner essays (including typical errors) for testing. Not genuine learner data.",
+   "description": "Essays by learners of English at the University of Pittsburgh English Language Institute, grouped by first language: Arabic, Chinese, Japanese and Spanish. All are Level 4 (Upper-Intermediate, about CEFR B1+/B2) writing-class essays, one final version per essay, about 10,000 words per language. Each essay is a document. Texts are unedited; ANON_ tags are PELIC's anonymisation.",
+   "synthetic": false,
+   "source": "PELIC: Juffs, A., Han, N-R. & Naismith, B. (2020). The University of Pittsburgh English Language Institute Corpus (PELIC). doi:10.5281/zenodo.3991977. Licence: CC BY-NC-ND 4.0.",
    "file": "learner.json",
-   "synthetic": true,
-   "wordCount": 763,
+   "wordCount": 41191,
    "datasets": [
     {
-     "id": "learner-a",
-     "name": "Learner A",
-     "wordCount": 222
+     "id": "arabic",
+     "name": "Arabic L1",
+     "wordCount": 10287
     },
     {
-     "id": "learner-b",
-     "name": "Learner B",
-     "wordCount": 188
+     "id": "chinese",
+     "name": "Chinese L1",
+     "wordCount": 10468
     },
     {
-     "id": "learner-c",
-     "name": "Learner C",
-     "wordCount": 181
+     "id": "japanese",
+     "name": "Japanese L1",
+     "wordCount": 10251
     },
     {
-     "id": "learner-d",
-     "name": "Learner D",
-     "wordCount": 172
+     "id": "spanish",
+     "name": "Spanish L1",
+     "wordCount": 10185
     }
    ]
   }
